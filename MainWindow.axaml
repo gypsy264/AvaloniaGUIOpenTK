@@ -1,0 +1,10 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:OpenTKWithAvalonia"
+        x:Class="OpenTKWithAvalonia.MainWindow"
+        Title="OpenTK with Avalonia" Width="800" Height="600">
+    <Grid>
+        <local:OpenGlUserControl Name="OpenGlControlHost" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <Button Name="myButton" Content="Change Color" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,20" Click="OnButtonClick"/>
+    </Grid>
+</Window>
